@@ -1,0 +1,11 @@
+Dear Pat,
+My apologies for not communicating prior, as I just recently joined Airtable. And don't worry about the date set in the ticket. Instead, I would like to take this opportunity to learn more about the environment and your valuable input on some possible and workable approaches to protect Airtable's data against the log4j vulnerability.
+
+Because of its popularity as a logging solution, log4j has nearly been an ubiquitous piece of software. As depicted by the CISA director (link below), the log4j vulnerability is the most serious vulnerability that she has seen in her decades-long career. It's trivial to exploit as a vulnerability to take over a server for stealing data, ransomware attacks and all manners of malicious activities. Each and all members of different teams within Airtable should do their own due diligence when it comes to protecting data of Airtable's as well as its customers'. Let's work collaboratively to find a common ground on the level of urgency. We could even run a trivial script (and push in parallel via any IaC tool) to check the version of installed log4j, if any, as a start. What do you think?
+
+CISA: "most serious vulnerability"
+https://www.cnbc.com/video/2021/12/16/cisa-director-says-the-log4j-security-flaw-is-the-most-serious-shes-seen-in-her-career.html
+
+Best regards,
+/sam
+

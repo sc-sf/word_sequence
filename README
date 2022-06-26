@@ -1,0 +1,15 @@
+The word_sequence binary was complied for macOS.
+
+Refer to this link for simple instructions compiling for Windows and Linux OS:
+https://freshman.tech/snippets/go/cross-compile-go-programs/
+
+How to execute the binary:
+
+cd to extracted directory where word_sequence binary reside and run
+
+Example 1:
+cat inputfile.txt | ./word_sequence
+Example 2:
+./word_sequence inputfile1.txt inputfile2.txt
+Example 3:
+cat inputfile.txt | ./word_sequence inputfile1.txt inputfile2.txt
